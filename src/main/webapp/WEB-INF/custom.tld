@@ -1,0 +1,23 @@
+<taglib>
+   <tlib-version>1.0</tlib-version>
+   <jsp-version>2.0</jsp-version>
+   <short-name>Example TLD with Body</short-name>
+   
+   <tag>
+      <name>Hello</name>
+      <tag-class>bootsample.tag.MyTag</tag-class>
+      <body-content>scriptless</body-content>
+      
+      <attribute>
+         <name>person</name>
+         <required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+      </attribute>
+      
+      <attribute>
+         <name>column</name>
+         <required>true</required>
+  		 <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+</taglib>
